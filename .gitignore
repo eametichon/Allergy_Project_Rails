@@ -32,7 +32,6 @@ bundler_stubs/
 assets/**/*
 config/database.yml
 config/staging.sphinx.conf
-config/initializers/secret_token.rb
 public/sitemap.xml
 /public/system/*
 
@@ -48,3 +47,5 @@ capybara-*.html
 rerun.txt
 pickle-email-*.html
 .project
+
+.env
