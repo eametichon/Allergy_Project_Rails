@@ -47,3 +47,6 @@ gem 'devise'
 # gem 'debugger', group: [:development, :test]
 
 gem 'dotenv-rails'
+
+# Factual dataset for product ingrediants
+gem 'factual-api'
