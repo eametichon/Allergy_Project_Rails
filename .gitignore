@@ -6,7 +6,6 @@
 
 # Ignore bundler config.
 /.bundle
-/vendor/bundle
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
@@ -14,11 +13,7 @@
 
 # Ignore all logfiles and tempfiles.
 /log/*
-/log/*.log
-log/*.pid
-/tmp/*
 /tmp
-tmp/**/*
 
 # Ignore other unneeded files.
 doc/
@@ -29,20 +24,9 @@ doc/
 .idea
 bundler_stubs/
 
-assets/**/*
-config/database.yml
-config/staging.sphinx.conf
-public/sitemap.xml
-/public/system/*
-
 *.rbc
 *.sassc
 .sass-cache
-capybara-*.html
-.rspec
-.rvmrc
-/coverage/
-/spec/tmp/*
 **.orig
 rerun.txt
 pickle-email-*.html
