@@ -17,9 +17,9 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: Alleryg_Rails_development
+  database: Allergy_Rails_development
   pool: 5
-  username: Alleryg_Rails
+  username: rubysneakers
   password:
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: Alleryg_Rails_test
+  database: Allergy_Rails_test
   pool: 5
-  username: Alleryg_Rails
+  username: rubysneakers
   password:
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: Alleryg_Rails_production
+  database: Allergy_Rails_production
   pool: 5
-  username: Alleryg_Rails
+  username: rubysneakers
   password:
