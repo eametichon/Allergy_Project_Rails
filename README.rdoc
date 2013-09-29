@@ -8,22 +8,47 @@ Collaborative project to build a web application that will take in an individual
 
 This is open source and contributions are welcome. 
 
-To use (command line commands written below directions):
-```bash
-    # Clone repsitory into a folder
-    git clone https://github.com/nyghtowl/Allergy_Project.git
-    # Setup virtualenv
-    virtualenv env
-    # Start virtualenv
-    source env/bin/activate
-    # Install requirements document
-    pip install -r requirements.txt 
-    # Create a local postgresql database called allergy_db (find or setup superuser)
-    createdb -O <superuser> <dbname>
-    # Define config keys locally in activate file under env/bin
-    # Run files with python
-    python run.py
+Setup instructions
 
+To use (command line commands written below directions):
+Prerequisites:
+Ruby 1.9.3 (--Lindsay's version, change if you wish. Apparently Ruby 2 is kinda different and breaks a lot of stuff.)
+Bundler 1.3.5 (if not installed in CL type gem install bundler)
+
+```bash
+    # Get and install files
+    ## Clone repsitory into a folder
+    git clone https://github.com/nyghtowl/Allergy_Project_Rails.git
+    ## move to Allergy_Project_Rails directory
+    cd Allergy_Project_Rails
+    ## install all gems in gemfile
+    bundle install (must have bundler installed, see prerequisites)
+
+    # Set up secret key
+    ## Set ENV variable as secret_token. If you need this, contact Melanie.
+    sublime ~/.bash_profile
+    ## add a line that says: 
+    export SECRET_TOKEN=xxxxxxxxxxxxxxx
+    ## save file and close
+    ## refresh bash session or open new tab
+    source ~/.bash_profile
+
+    # At this point if you run the app (`bundle exec rails server` and navigate to localhost:3000 it should run but give you a database connection error)
+
+    # Set up database
+    ## make sure postgres is running
+    ## in a new tab type
+    postgres
+    ## Create users (back in bash):
+    createuser -s rubysneakers
+    ## Create database (in project dir)
+    rake db:create
+
+    # Run app!
+    bundle exec rails server
+
+    # in browser, navigate to localhost:3000
+    # the page should be there!
 
 ```
 
