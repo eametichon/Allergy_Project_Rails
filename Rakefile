@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-AllerygRails::Application.load_tasks
+AllergyRails::Application.load_tasks
