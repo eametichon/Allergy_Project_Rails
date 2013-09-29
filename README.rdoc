@@ -8,7 +8,7 @@ Collaborative project to build a web application that will take in an individual
 
 This is open source and contributions are welcome. 
 
-{Setup instructions}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Setup-Instructions]
+>>>>>>>>>>{Setup instructions}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Setup-Instructions]<<<<<<<<<
 
 Additional items to add:
 * Ruby version
