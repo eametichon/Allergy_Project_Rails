@@ -10,6 +10,9 @@ This is open source and contributions are welcome.
 
 >>>>>>>>>> {Setup instructions}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Setup-Instructions] <<<<<<<<<
 
+>>>>>>>>>> {What are we making???}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Map-of-the-project]<<<<<<<<<
+
+
 >>>> {Allergy resources}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/allergy-information-resources] <<<<
 
 
