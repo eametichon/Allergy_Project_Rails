@@ -8,12 +8,12 @@ Collaborative project to build a web application that will take in an individual
 
 This is open source and contributions are welcome. 
 
->>>>>>>>>> {Setup instructions}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Setup-Instructions] <<<<<<<<<
+* {Setup instructions}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Setup-Instructions] 
 
->>>>>>>>>> {What are we making???}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Map-of-the-project]<<<<<<<<<
+* {What are we making???}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Map-of-the-project]
 
 
->>>> {Allergy resources}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/allergy-information-resources] <<<<
+* {Allergy resources}[https://github.com/nyghtowl/Allergy_Project_Rails/wiki/allergy-information-resources] 
 
 
 Additional items to add:
