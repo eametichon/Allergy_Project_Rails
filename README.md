@@ -14,7 +14,7 @@ This is open source and contributions are welcome.
 
 
 * [Allergy Resources](https://github.com/nyghtowl/Allergy_Project_Rails/wiki/allergy-information-resources)
-
+* [Factual API info](https://github.com/nyghtowl/Allergy_Project_Rails/wiki/Factual-API-info)
 
 Additional items to add:
 * Ruby version
